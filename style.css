@@ -1,0 +1,175 @@
+.container-fluid{
+  height: 60px;
+}
+.navbar-inverse{
+  margin-bottom:0;
+}
+.navbar-brand{
+  font-family: impact;
+}
+
+.navbar-nav{
+  padding-left: 110px;
+}
+.container{
+  background-color: #EFEBE1 ;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+
+}
+.content{
+  padding: 70px;
+  list-style-type: none;
+}
+.content h4{
+  color: red;
+}
+.content h2{
+  font-weight: bold;
+}
+.delivery{
+  padding-top:20px;
+}
+
+
+
+.box
+{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+   display: flex;
+   overflow: hidden;
+   border-spacing: 10px;
+
+ }
+.box .column
+ {
+   flex: 1;
+background: #aaa;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 5px;
+
+ }
+ .box1
+ {
+   display: -webkit-flex;
+   display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+
+  }
+ .box1 .column1
+  {
+    flex: 1;
+ background: white;
+     margin-right: 10px;
+     margin-left: 10px;
+     padding: 15px;
+     color:black;
+
+  }
+ .button {
+ color: black;
+cursor: pointer;
+
+
+ }
+ .basic
+  {
+    background-color: #555555;
+    color:white;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.column a:hover{
+  text-decoration: none;
+  color:white;
+}
+.commitment{
+  margin-left: 70px;
+  margin-right: 70px;
+  color: grey;
+  font-size: 10px;
+}
+
+.questions{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.questions p{
+  font-size: 22px;
+}
+
+.questions li a{
+  font-size: 16px;
+}
+.questions li p{
+  font-size: 16px;
+}
+
+#hoverme{
+  font-size: 16px;
+}
+
+/*#hoverme:hover + #hovercontent {
+	display: block;
+}*/
+#hovercontent{
+  display: none;
+  font-size: 16px;
+}
+#hoverme-1{
+  font-size: 16px;
+}
+
+#hovercontent-1{
+  display: none;
+  font-size: 16px;
+}
+
+.questions button{
+  background-color: #2e84ed;
+  color:white;
+  font-size: 13px;
+  padding: 15px 32px;
+  text-align: center;
+  border: none;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  background-color: black;
+}
+.footerContent
+{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+   display: flex;
+   overflow: hidden;
+   border-spacing: 10px;
+
+ }
+.footerContent .footerColumn
+ {
+   flex: 1;
+
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 5px;
+
+ }
+
+ .footerColumn a{
+   color:#bbb;
+ }
+ .footerColumn li{
+   list-style-type: none;
+ }

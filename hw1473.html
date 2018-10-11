@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Work 473</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+<!--Scripting used for display of div block on click -->
+  <script type="text/javascript">
+    function showHideDiv(ele) {
+      var srcElement = document.getElementById(ele);
+      if (srcElement != null) {
+        if (srcElement.style.display == "block") {
+          srcElement.style.display = 'none';
+        } else {
+          srcElement.style.display = 'block';
+        }
+        return false;
+      }
+    }
+    $(document).ready(function() {
+      $('#hovercontent-1').show();
+    });
+    $(document).ready(function() {
+      $('#hovercontent-2').hide();
+    });
+    $(document).ready(function() {
+      $('#hovercontent-3').hide();
+    });
+    $(document).ready(function() {
+      $('#hovercontent-4').hide();
+    });
+    $(document).ready(function() {
+      $('#hovercontent-5').hide();
+    });
+    $(document).ready(function() {
+      $('#hovercontent-6').hide();
+    });
+  </script>
+</head>
+
+<body>
+<!-- Top navigation bar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Padival Times</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Why the Times?</a></li>
+        <li><a href="#">What you get</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Options<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home Delivery</a></li>
+            <li><a href="#">Academic Rates</a></li>
+            <li><a href="#">Group Subscriptions</a></li>
+            <li><a href="#">Cooking</a></li>
+            <li><a href="#">Crossword</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--conatiner contents -->
+  <div class="container" align="center">
+    <ul class="content">
+      <li>
+        <h4>ACADEMIC RATE</h4>
+      </li>
+      <li>
+        <h2>Be the change you want to read in the world.</h2>
+      </li>
+      <li>
+        <h3>Support independent journalism.</h3>
+      </li>
+      <li>
+        <h4>Subscribe for $1 a week.</h4>
+      </li>
+    </ul>
+
+  </div>
+  <div class="delivery" align="center">
+    <p>
+      Choose between our <strong>Digital</strong> or <strong>Home Delivery</strong> options. You may cancel anytime soon.
+    </p>
+    <p>
+      Not a Student? <a> Click Here</a>
+    </p>
+  </div>
+  <div class="box">
+    <div class="column">
+      <a class="button">
+        <h2>Basic</h2>
+        <p>
+          <br /><strike style="text-decoration: line-through;">$3.75</strike> $1.00/week
+
+        </p>
+        <button class="basic">Get Basic</button>
+      </a>
+
+    </div>
+    <div class="column">
+      <a class="button">
+        <h2>All Access</h2>
+        <p>
+          <br /><strike style="text-decoration: line-through;">$6.25</strike> $1.50/week
+        </p>
+        <button class="basic">Get Access</button>
+      </a>
+    </div>
+    <div class="column">
+      <a class="button">
+        <h2>Print + Free Digital Access</h2>
+        <p>
+            As low as <strike style="text-decoration: line-through;">$7.25</strike> $4.00/week
+        </p>
+        <button class="basic">Get Print + Free Digital</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- Subscriptions section -->
+  <div class="box1">
+    <div class="column1">
+      <a style="color:black;">
+        <ul>
+          <li>
+            Unlimited article access anytime, anywhere on NYTimes.com and in the app.
+          </li>
+          <li>
+            Access to the full New York Times Archives from 1851.
+          </li>
+          <li>
+            <strong>Subscriber Exclusives<br /></strong> Get access to exclusive features and correspondence, like our Notes From the Newsroom newsletter, along with early access to new media releases.
+          </li>
+          NYT Crossword Play the puzzle for free on any device. Enjoy 20 years of Crossword archives. Solve in minutes with our bite-size mini puzzles. NYT Cooking Access to the entire NYT Cooking recipe archive. Learn with our how-to cooking guides, and build
+          and organize your personal Recipe Box.
+
+        </ul>
+
+      </a>
+    </div>
+    <div class="column1">
+      <a style="color:black;">
+        <ul>
+          <li>
+            Unlimited article access anytime, anywhere on NYTimes.com and in the app.
+          </li>
+          <li>
+            Access to the full New York Times Archives from 1851.
+          </li>
+          <li>
+            <strong>Subscriber Exclusives<br /></strong> Get access to exclusive features and correspondence, like our Notes From the Newsroom newsletter, along with early access to new media releases.
+          </li>
+          <li>
+            <strong> NYT Crossword<br /></strong> Play the puzzle for free on any device. Enjoy 20 years of Crossword archives. Solve in minutes with our bite-size mini puzzles.
+          </li>
+        </ul>
+      </a>
+    </div>
+    <div class="column1">
+      <a style="color:black;">
+        <ul>
+          <li>
+            Unlimited article access anytime, anywhere on NYTimes.com and in the app.
+          </li>
+          <li>
+            Access to the full New York Times Archives from 1851.
+          </li>
+          <li>
+            <strong>Subscriber Exclusives<br /></strong> Get access to exclusive features and correspondence, like our Notes From the Newsroom newsletter, along with early access to new media releases.
+          </li>
+          <li>
+            <strong> NYT Crossword<br /></strong> Play the puzzle for free on any device. Enjoy 20 years of Crossword archives. Solve in minutes with our bite-size mini puzzles.
+          </li>
+          <li>
+            <strong>NYT Cooking<br /></strong> Access to the entire NYT Cooking recipe archive. Learn with our how-to cooking guides, and build and organize your personal Recipe Box.
+          </li>
+          <li>
+            <strong>Times Experiences</strong> Engage directly with journalists online, go beyond the year’s biggest stories with panel discussions across the country, and enjoy special discounts and behind-the-scenes access to cultural events.
+          </li>
+          <li>
+            <strong>Exclusive Print Editions</strong> Receive special print-only features dedicated to crosswords, puzzles, and panoramic photojournalism stories.
+          </li>
+
+        </ul>
+      </a>
+    </div>
+  </div>
+
+  <!-- another div block for policies -->
+  <div class="commitment">
+    <p>
+      <br />
+      <br />
+      <Strong>No commitment required, cancel anytime.<br /></Strong> To qualify for the special academic rate, you must be a current qualifying student or educator. Your payment method will be charged in advance every 4 weeks (28 days) at the special rate. All subscriptions renew automatically. You can cancel at
+      any time. We may periodically request verification of your qualifying student or educator status, and if you are no longer able to confirm that status we may charge you the standard rate unless you cancel. This offer does not apply to e-reader editions.
+      Mobile apps are not supported on all devices. Other restrictions and taxes may apply. Offers and pricing are subject to change without notice.
+    </p>
+  </div>
+  <br />
+  <!-- Group Subscriptions -->
+  <div class="box">
+    <div class="column" style="background-color: #eee;">
+      <span class="button">
+      <strong>A special offer for K-12 and higher education</strong>
+      <p>
+Give your school the advantage of full access to the Padival Times whether its for select students and faculty or for everyone
+      </p>
+      <a ><strong><br /><br />Group Subscriptions</strong></a>
+    </span>
+    </div>
+    <div class="column" style="background-color: #eee;">
+      <span class="button">
+      <strong>Gift Subscriptions</strong>
+      <p>
+Give the gift of the timesat academic rates and save over 50%
+      </p>
+      <a ><strong><br /><br />Learn More</strong></a>
+    </span>
+    </div>
+  </div>
+  <br />
+  <div class="box">
+    <div class="column" style="background-color: #eee;">
+      <span class="button">
+        <strong>PT Crossword</strong>
+        <p>
+          Play the crossword and mini puzzles on any device. Daily puzzles edited by Will Shortz, plus 20 years of great puzzles from our archives.
+        </p>
+        <a ><strong><br /><br />Get PT Password</strong></a>
+      </span>
+
+    </div>
+    <div class="column" style="background-color: #eee;">
+      <span class="button">
+        <strong>PT Cooking</strong>
+        <p>
+          Unlimited access to the entire PT Cooking recipe database, with tools to save and organize your favorites in your personal Recipe Box.
+        </p>
+        <a ><strong><br /><br />Get PT Cooking</strong></a>
+      </span>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+
+  <!-- FAQ TABS -->
+  <div class="questions">
+    <p>
+      Frequesntly asked questions
+    </p>
+    <br />
+    <ul>
+      <li>
+        <a id="hoverme-1" onClick="showHideDiv('hovercontent-1')"><strong>What is a digital subscription? What do I get when I subscribe?</strong> </a>
+        <p id="hovercontent-1">
+          An unlimited New York Times digital subscription provides ongoing access to NYTimes.com from any computer or device, as well as access to apps on portable devices. When you subscribe, you’ll get access to articles and blog posts, as well as video, slide
+          shows and other multimedia features.
+        </p>
+      </li>
+      <br />
+      <li>
+        <a id="hoverme-2" onClick="showHideDiv('hovercontent-2')"><strong>At the Academic Rate, do I have access to the same features and benefits of a regular rate subscription?</strong> </a>
+        <p id="hovercontent-2">
+          Yes, with the exception that Academic Rate subscribers to our All Access and Print + Free Digital Access packages are not eligible to receive bonus subscriptions to give to friends or family members. Print + Free Digital Access subscribers also do not
+          have access to NYT Crosswords.
+        </p>
+      </li>
+      <br />
+      <li>
+        <a id="hoverme-3" onClick="showHideDiv('hovercontent-3')"><strong>How do I qualify for the Academic Rate?
+</strong> </a>
+        <p id="hovercontent-3">
+          You must be a current university student or educator and have a valid school email address.
+        </p>
+      </li>
+      <br />
+      <li>
+        <a id="hoverme-4" onClick="showHideDiv('hovercontent-4')"><strong>
+Do you offer subscriptions to organizations?</strong> </a>
+        <p id="hovercontent-4">
+          Certainly. We offer special rates to organizations aiming to provide group access to The Times. Learn more at the group subscriptions homepage.
+        </p>
+      </li>
+      <br />
+      <li>
+        <a id="hoverme-5" onClick="showHideDiv('hovercontent-5')"><strong>
+Do you have resources for educators interested in using The New York Times in their courses or outside the classroom?</strong> </a>
+        <p id="hovercontent-5">
+          Yes. Please visit The New York Times in Education and The New York Times in Leadership for resources at the college and university level. Resources specifically for K–12 classrooms may be found by visiting The New York Times Learning Network.
+        </p>
+      </li>
+      <br />
+      <li>
+        <a id="hoverme-6" onClick="showHideDiv('hovercontent-6')"><strong>
+What if I don’t qualify for the Academic Rate?
+</strong> </a>
+        <p id="hovercontent-6">
+          You can order at our regular low rate here.
+        </p>
+      </li>
+      <br />
+    </ul>
+    <button><strong>View All FAQ</strong></button> <button><strong>REFUNDS & CANCELLATIONS</strong></button>
+  </div>
+  <br />
+  <div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footerContent">
+      <div class="footerColumn">
+        <ul>
+          <li>
+            <a class="navbar-brand" href="#" style="color: #bbb; font-size:20px;">Padival Times</a>
+          </li>
+          <li>
+            Copyright @2018
+          </li>
+        </ul>
+      </div>
+      <div class="footerColumn">
+        <ul>
+          <li>
+            <strong style="color: #bbb;">About</strong>
+          </li>
+          <br />
+          <li>
+            <a>
+      The Padival Times company
+    </a>
+          </li>
+          <br />
+          <li>
+            <a>
+      Privacy Policy
+    </a>
+          </li>
+          <br />
+          <li>
+            <a>
+      Terms of Sale
+    </a>
+          </li>
+          <br />
+        </ul>
+      </div>
+      <div class="footerColumn">
+        <ul>
+          <li>
+            <strong style="color: #bbb;">Help</strong>
+          </li>
+          <br />
+          <li>
+            <a>
+            Frequently asked questions
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            Contact Us
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            Feedback
+          </a>
+          </li>
+          <br />
+        </ul>
+      </div>
+      <div class="footerColumn">
+        <ul>
+          <li>
+            <strong style="color: #bbb;">Ways to Subscribe</strong>
+          </li>
+          <br />
+          <li>
+            <a>
+            Digital + Home Delivery
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            Education Rates
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            Group Subscriptions
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            NYT Crossword
+          </a>
+          </li>
+          <br />
+          <li>
+            <a>
+            Gift Subscriptions
+          </a>
+          </li>
+          <br />
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

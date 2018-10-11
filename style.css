@@ -169,6 +169,7 @@ cursor: pointer;
 
  .footerColumn a{
    color:#bbb;
+   cursor: pointer;
  }
  .footerColumn li{
    list-style-type: none;
